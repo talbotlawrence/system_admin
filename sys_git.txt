@@ -1,0 +1,8 @@
+create the repository on your github page and name it "system_admin"
+cd into directory you want to store on github
+git init
+git add .
+git commit -m "initial commit"
+ssh git@github.com  #enter pass_phrase
+git remote add origin2 git@github.com:talbotlawrence/system_admin.git
+git push origin2 master
